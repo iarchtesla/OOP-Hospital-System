@@ -1,0 +1,23 @@
+[
+  {
+    "customer_id": "C001",
+    "name": "mahmoud saleh",
+    "phone": "01001234567",
+    "email": "mahmoud@example.com",
+    "purchases": []
+  },
+  {
+    "customer_id": "C002",
+    "name": "mazen EL SAWY",
+    "phone": "01009876543",
+    "email": "mazen@example.com",
+    "purchases": []
+  },
+  {
+    "customer_id": "C003",
+    "name": "MOHAMED SAMEH",
+    "phone": "01005556677",
+    "email": "mohamed@example.com",
+    "purchases": []
+  }
+]

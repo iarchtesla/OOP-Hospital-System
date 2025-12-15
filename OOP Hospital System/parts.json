@@ -1,0 +1,58 @@
+[
+  {
+    "part_id": "P001",
+    "name": "Engine Piston",
+    "price": 850,
+    "quantity": 25,
+    "category": "Engine"
+  },
+  {
+    "part_id": "P002",
+    "name": "Oil Filter",
+    "price": 120,
+    "quantity": 100,
+    "category": "Filters"
+  },
+  {
+    "part_id": "P003",
+    "name": "Car Battery",
+    "price": 1800,
+    "quantity": 15,
+    "category": "Electrical"
+  },
+  {
+    "part_id": "P004",
+    "name": "Brake Cylinder",
+    "price": 320,
+    "quantity": 40,
+    "category": "Brakes"
+  },
+  {
+    "part_id": "P005",
+    "name": "15-inch Tire",
+    "price": 650,
+    "quantity": 30,
+    "category": "Tires"
+  },
+  {
+    "part_id": "P006",
+    "name": "Spark Plug",
+    "price": 45,
+    "quantity": 200,
+    "category": "Engine"
+  },
+  {
+    "part_id": "P007",
+    "name": "Headlight",
+    "price": 350,
+    "quantity": 50,
+    "category": "Electrical"
+  },
+  {
+    "part_id": "P008",
+    "name": "Steering Wheel",
+    "price": 450,
+    "quantity": 20,
+    "category": "Interior"
+  }
+]
