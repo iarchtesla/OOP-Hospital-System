@@ -1,41 +1,46 @@
 # Vitalis Cura Hospital Management System 🏥✨
 
-A collaborative Python OOP project simulating a hospital management system with role-based access and a modern GUI. 💻
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-orange.svg)]()
+
+A collaborative Python OOP project simulating a real-world hospital management system with secure role-based access and a sleek modern GUI. 💻🩺
 
 ## Purpose
-- Demonstrate OOP principles (encapsulation, inheritance, polymorphism, abstraction) in a real-world application. 🔑
-- Provide a scalable, maintainable codebase for managing hospital workflows. 📊
-- Serve as a portfolio piece showcasing Python GUI development and data persistence. 📁
+- Demonstrate core OOP principles: encapsulation, inheritance, polymorphism, abstraction. 🔑
+- Build a scalable, maintainable application for hospital workflows. 📊
+- Create a standout portfolio piece showcasing Python GUI development and data persistence. 📁
 
-**Note**: This is a forked and collaborative effort from the original by CommanderX0 – explore, fork, and contribute! 😊
+**Note**: This is a collaborative fork from CommanderX0's original project – we worked on it together! Explore, fork, and contribute! 😊
 
 ## Key Features
-- Role-based access: Admin, Doctor, Nurse, Receptionist. 👥
-- Management of patients, doctors, medicines, and appointments. 🩺
-- Data persistence using JSON files. 💾
-- Modern desktop GUI built with CustomTkinter. 🖥️
+- **Role-Based Access Control**: Admin, Doctor, Nurse, Receptionist 👥
+- **Full Management Modules**: Patients, Doctors, Medicines, Appointments 🩺
+- **Data Persistence**: All records saved in JSON files 💾
+- **Modern GUI**: Beautiful interface built with CustomTkinter 🖥️
+- **Input Validation & Security**: Basic checks and planned password hashing 🔒
 
-## Structure
-Project organized into key modules:
+## Technologies
+- Python 3.x
+- CustomTkinter (modern Tkinter wrapper)
+- JSON (lightweight data storage)
 
-- /main.py (entry point) 🚀
-- /gui (GUI components and windows) 🎨
-- /models (OOP classes for users, patients, etc.) 🏗️
-- /data (JSON handling and persistence) 📂
-- /utils (helper functions) 🛠️
+## Project Structure
+OOP-Hospital-System/
+├── main.py                 # Application entry point 🚀
+├── gui/                    # All GUI windows and components 🎨
+├── models/                 # Core OOP classes (User, Patient, Doctor, etc.) 🏗️
+├── data/                   # JSON persistence files 📂
+├── utils/                  # Helper functions and utilities 🛠️
+├── screenshots/            # GUI screenshots 📸
+├── LICENSE                 # MIT License
+├── .gitignore              # Git ignore rules
+└── README.md               # You're reading this! 📝
 
-(More details in code comments) 📝
 
 ## Installation
-1. Clone the repo: git clone https://github.com/iarchtesla/OOP-Hospital-System.git 📥
-2. Install dependencies: pip install customtkinter 🔧
-3. Run: python main.py ▶️
-
-## Usage
-- Launch the app and log in with a role (default credentials in code). 🔐
-- Navigate dashboards based on your role. 🧭
-- Manage records and explore features. 🔍
-
-Feel free to star ⭐ or contribute! 🚀
-
-Developed by iarchtesla and CommanderX0 👏
+1. Clone the repository
+   ```bash
+   git clone https://github.com/iarchtesla/OOP-Hospital-System.git
+   cd OOP-Hospital-System
+   
