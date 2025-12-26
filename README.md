@@ -1,39 +1,39 @@
-copy
-# 🏥 Vitalis Cura — Python OOP Hospital Management System
+# Vitalis Cura Hospital Management System 🏥
 
-**Vitalis Cura** is a professional Python desktop application that simulates a real-world hospital system using clean **Object-Oriented Programming (OOP)** and a modern GUI.
+A collaborative Python OOP project simulating a hospital management system with role-based access and a modern GUI.
 
----
+## Purpose
+- Demonstrate OOP principles (encapsulation, inheritance, polymorphism, abstraction) in a real-world application.
+- Provide a scalable, maintainable codebase for managing hospital workflows.
+- Serve as a portfolio piece showcasing Python GUI development and data persistence.
 
-## 🚀 Core Features
+**Note**: This is a forked and collaborative effort from the original by CommanderX0 – explore, fork, and contribute! 😊
 
-🔹 **Role-Based Access Control**  
-Admin · Doctor · Nurse · Receptionist
+## Key Features
+- Role-based access: Admin, Doctor, Nurse, Receptionist.
+- Management of patients, doctors, medicines, and appointments.
+- Data persistence using JSON files.
+- Modern desktop GUI built with CustomTkinter.
 
-🔹 **Management Modules**  
-Patients · Doctors · Medicines · Appointments
+## Structure
+Project organized into key modules:
 
-🔹 **JSON Data Persistence**  
-No external database — simple, reliable storage
+- /main.py (entry point)
+- /gui (GUI components and windows)
+- /models (OOP classes for users, patients, etc.)
+- /data (JSON handling and persistence)
+- /utils (helper functions)
 
-🔹 **Modern GUI**  
-Built with **CustomTkinter**
+(More details in code comments)
 
----
+## Installation
+1. Clone the repo: git clone https://github.com/iarchtesla/OOP-Hospital-System.git
+2. Install dependencies: pip install customtkinter
+3. Run: python main.py
 
-## 🧠 Applied Concepts
+## Usage
+- Launch the app and log in with a role (default credentials in code).
+- Navigate dashboards based on your role.
+- Manage records and explore features.
 
-✔ Encapsulation  
-✔ Inheritance  
-✔ Polymorphism  
-✔ Abstraction
-
-Designed with scalable OOP structure for readability and future expansion.
-
----
-
-## ⚙️ Quick Start
-
-1) Clone the repo  
-```bash
-git clone https://github.com/CommanderX0/OOP-Hospital-System.git
+Feel free to star ⭐ or contribute!
