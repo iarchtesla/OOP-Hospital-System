@@ -1,0 +1,72 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.pyo.d
+*.pyc.d
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env*/
+venv*/
+
+# Environment variables
+.env
+.env.local
+.env.* 
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# PyCharm
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# VS Code
+.vscode/*
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Data files (optional - remove or comment if you want to track JSON data)
+data/*.json
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# CustomTkinter or other GUI cache (if any)
+.ctk_cache/
